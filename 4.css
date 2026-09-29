@@ -1,0 +1,58 @@
+ body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .navbar-brand {
+            font-size: 25px;
+            font-weight: bold;
+            font-style: italic;
+        }
+
+        .hero {
+            padding: 70px 0;
+        }
+
+        .hero h1 {
+            font-size: 42px;
+            font-weight: bold;
+        }
+
+        .hero-img {
+            width: 100%;
+            max-width: 550px;
+        }
+
+        .card {
+            border: none;
+            box-shadow: 0 3px 12px rgba(0,0,0,.12);
+            transition: .3s;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+        }
+
+        .materi {
+            scroll-margin-top: 80px;
+        }
+
+        pre {
+            overflow-x: auto;
+        }
+
+        .font-judul {
+            font-family: "Original Surfer", cursive;
+        }
+
+        @media (max-width: 768px) {
+        .hero {
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 32px;
+    }
+        }
+    
